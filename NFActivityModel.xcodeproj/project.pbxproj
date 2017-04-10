@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5916C4F1E9B369D00243B11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5916C4E1E9B369D00243B11 /* main.m */; };
+		F5916C521E9B369D00243B11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5916C511E9B369D00243B11 /* AppDelegate.m */; };
+		F5916C551E9B369D00243B11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5916C541E9B369D00243B11 /* ViewController.m */; };
+		F5916C581E9B369D00243B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5916C561E9B369D00243B11 /* Main.storyboard */; };
+		F5916C5A1E9B369D00243B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5916C591E9B369D00243B11 /* Assets.xcassets */; };
+		F5916C5D1E9B369D00243B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5916C5B1E9B369D00243B11 /* LaunchScreen.storyboard */; };
+		F5916C681E9B38E200243B11 /* NFActivityShareMail.m in Sources */ = {isa = PBXBuildFile; fileRef = F5916C671E9B38E200243B11 /* NFActivityShareMail.m */; };
+		F5916C6B1E9B4BBD00243B11 /* NFActivityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5916C6A1E9B4BBD00243B11 /* NFActivityItem.m */; };
+		F5916C6E1E9B4BE900243B11 /* NFActivityShareMailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F5916C6D1E9B4BE900243B11 /* NFActivityShareMailItem.m */; };
+		F5916C721E9B4F0800243B11 /* NFActivityShareMailIAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = F5916C711E9B4F0800243B11 /* NFActivityShareMailIAttachment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5916C4A1E9B369D00243B11 /* NFActivityModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFActivityModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5916C4E1E9B369D00243B11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5916C501E9B369D00243B11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5916C511E9B369D00243B11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5916C531E9B369D00243B11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5916C541E9B369D00243B11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5916C571E9B369D00243B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5916C591E9B369D00243B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5916C5C1E9B369D00243B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5916C5E1E9B369D00243B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5916C651E9B36D800243B11 /* NFActivityModelConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFActivityModelConstants.h; sourceTree = "<group>"; };
+		F5916C661E9B38E200243B11 /* NFActivityShareMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFActivityShareMail.h; sourceTree = "<group>"; };
+		F5916C671E9B38E200243B11 /* NFActivityShareMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFActivityShareMail.m; sourceTree = "<group>"; };
+		F5916C691E9B4BBD00243B11 /* NFActivityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFActivityItem.h; sourceTree = "<group>"; };
+		F5916C6A1E9B4BBD00243B11 /* NFActivityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFActivityItem.m; sourceTree = "<group>"; };
+		F5916C6C1E9B4BE900243B11 /* NFActivityShareMailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFActivityShareMailItem.h; sourceTree = "<group>"; };
+		F5916C6D1E9B4BE900243B11 /* NFActivityShareMailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFActivityShareMailItem.m; sourceTree = "<group>"; };
+		F5916C701E9B4F0800243B11 /* NFActivityShareMailIAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFActivityShareMailIAttachment.h; sourceTree = "<group>"; };
+		F5916C711E9B4F0800243B11 /* NFActivityShareMailIAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFActivityShareMailIAttachment.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5916C471E9B369D00243B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5916C411E9B369D00243B11 = {
+			isa = PBXGroup;
+			children = (
+				F5916C4C1E9B369D00243B11 /* NFActivityModel */,
+				F5916C4B1E9B369D00243B11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5916C4B1E9B369D00243B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5916C4A1E9B369D00243B11 /* NFActivityModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5916C4C1E9B369D00243B11 /* NFActivityModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5916C501E9B369D00243B11 /* AppDelegate.h */,
+				F5916C511E9B369D00243B11 /* AppDelegate.m */,
+				F5916C531E9B369D00243B11 /* ViewController.h */,
+				F5916C541E9B369D00243B11 /* ViewController.m */,
+				F5916C641E9B36B300243B11 /* NFActivityModel */,
+				F5916C6F1E9B4BF500243B11 /* NFActivityItem */,
+				F5916C561E9B369D00243B11 /* Main.storyboard */,
+				F5916C591E9B369D00243B11 /* Assets.xcassets */,
+				F5916C5B1E9B369D00243B11 /* LaunchScreen.storyboard */,
+				F5916C5E1E9B369D00243B11 /* Info.plist */,
+				F5916C4D1E9B369D00243B11 /* Supporting Files */,
+			);
+			path = NFActivityModel;
+			sourceTree = "<group>";
+		};
+		F5916C4D1E9B369D00243B11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5916C4E1E9B369D00243B11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5916C641E9B36B300243B11 /* NFActivityModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5916C651E9B36D800243B11 /* NFActivityModelConstants.h */,
+				F5916C661E9B38E200243B11 /* NFActivityShareMail.h */,
+				F5916C671E9B38E200243B11 /* NFActivityShareMail.m */,
+			);
+			name = NFActivityModel;
+			sourceTree = "<group>";
+		};
+		F5916C6F1E9B4BF500243B11 /* NFActivityItem */ = {
+			isa = PBXGroup;
+			children = (
+				F5916C691E9B4BBD00243B11 /* NFActivityItem.h */,
+				F5916C6A1E9B4BBD00243B11 /* NFActivityItem.m */,
+				F5916C6C1E9B4BE900243B11 /* NFActivityShareMailItem.h */,
+				F5916C6D1E9B4BE900243B11 /* NFActivityShareMailItem.m */,
+				F5916C701E9B4F0800243B11 /* NFActivityShareMailIAttachment.h */,
+				F5916C711E9B4F0800243B11 /* NFActivityShareMailIAttachment.m */,
+			);
+			name = NFActivityItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5916C491E9B369D00243B11 /* NFActivityModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5916C611E9B369D00243B11 /* Build configuration list for PBXNativeTarget "NFActivityModel" */;
+			buildPhases = (
+				F5916C461E9B369D00243B11 /* Sources */,
+				F5916C471E9B369D00243B11 /* Frameworks */,
+				F5916C481E9B369D00243B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFActivityModel;
+			productName = NFActivityModel;
+			productReference = F5916C4A1E9B369D00243B11 /* NFActivityModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5916C421E9B369D00243B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Neil Francis Hipona";
+				TargetAttributes = {
+					F5916C491E9B369D00243B11 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RKF34AM7UT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F5916C451E9B369D00243B11 /* Build configuration list for PBXProject "NFActivityModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5916C411E9B369D00243B11;
+			productRefGroup = F5916C4B1E9B369D00243B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5916C491E9B369D00243B11 /* NFActivityModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5916C481E9B369D00243B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5916C5D1E9B369D00243B11 /* LaunchScreen.storyboard in Resources */,
+				F5916C5A1E9B369D00243B11 /* Assets.xcassets in Resources */,
+				F5916C581E9B369D00243B11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5916C461E9B369D00243B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5916C721E9B4F0800243B11 /* NFActivityShareMailIAttachment.m in Sources */,
+				F5916C551E9B369D00243B11 /* ViewController.m in Sources */,
+				F5916C6B1E9B4BBD00243B11 /* NFActivityItem.m in Sources */,
+				F5916C6E1E9B4BE900243B11 /* NFActivityShareMailItem.m in Sources */,
+				F5916C521E9B369D00243B11 /* AppDelegate.m in Sources */,
+				F5916C4F1E9B369D00243B11 /* main.m in Sources */,
+				F5916C681E9B38E200243B11 /* NFActivityShareMail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5916C561E9B369D00243B11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5916C571E9B369D00243B11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5916C5B1E9B369D00243B11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5916C5C1E9B369D00243B11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5916C5F1E9B369D00243B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5916C601E9B369D00243B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5916C621E9B369D00243B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RKF34AM7UT;
+				INFOPLIST_FILE = NFActivityModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFerocious.NFActivityModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5916C631E9B369D00243B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RKF34AM7UT;
+				INFOPLIST_FILE = NFActivityModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NFerocious.NFActivityModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5916C451E9B369D00243B11 /* Build configuration list for PBXProject "NFActivityModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5916C5F1E9B369D00243B11 /* Debug */,
+				F5916C601E9B369D00243B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5916C611E9B369D00243B11 /* Build configuration list for PBXNativeTarget "NFActivityModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5916C621E9B369D00243B11 /* Debug */,
+				F5916C631E9B369D00243B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5916C421E9B369D00243B11 /* Project object */;
+}
