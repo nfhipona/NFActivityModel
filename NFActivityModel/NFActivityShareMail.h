@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NFActivityModelConstants.h"
+#import "NFActivityShareMailItem.h"
 
 @interface NFActivityShareMail : UIActivity
 
