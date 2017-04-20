@@ -13,6 +13,7 @@
 
 // MARK: - data
 
+@property (nonatomic, strong) NSString *mailTitle;
 @property (nonatomic, strong) NSString *mailBody;
 @property (nonatomic, strong) NSString *mailSubject;
 @property (nonatomic) BOOL isHTML;
@@ -30,11 +31,11 @@
 /**
  * Instantiate with components
  */
-- (instancetype)initWithShareMailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML;
+- (instancetype)initWithShareMailTitle:(NSString *)mailTitle mailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML;
 
 /**
  * Instantiate with components
  */
-- (instancetype)initWithShareMailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML mailRecipients:(NSArray *)mailRecipients mailCcRecipients:(NSArray *)mailCcRecipients mailBccRecipients:(NSArray *)mailBccRecipients;
+- (instancetype)initWithShareMailTitle:(NSString *)mailTitle mailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML mailRecipients:(NSArray *)mailRecipients mailCcRecipients:(NSArray *)mailCcRecipients mailBccRecipients:(NSArray *)mailBccRecipients;
 
 @end

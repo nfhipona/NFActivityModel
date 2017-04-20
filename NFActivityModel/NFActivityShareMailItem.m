@@ -10,7 +10,7 @@
 
 @implementation NFActivityShareMailItem
 
-- (instancetype)initWithShareMailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML {
+- (instancetype)initWithShareMailTitle:(NSString *)mailTitle mailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML {
     
     if (self = [super init]) {
         
@@ -22,9 +22,9 @@
     return self;
 }
 
-- (instancetype)initWithShareMailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML mailRecipients:(NSArray *)mailRecipients mailCcRecipients:(NSArray *)mailCcRecipients mailBccRecipients:(NSArray *)mailBccRecipients {
+- (instancetype)initWithShareMailTitle:(NSString *)mailTitle mailSubject:(NSString *)mailSubject mailBody:(NSString *)mailBody isHTML:(BOOL)isHTML mailRecipients:(NSArray *)mailRecipients mailCcRecipients:(NSArray *)mailCcRecipients mailBccRecipients:(NSArray *)mailBccRecipients {
     
-    if (self = [self initWithShareMailSubject:mailSubject mailBody:mailBody isHTML:isHTML]) {
+    if (self = [self initWithShareMailTitle:mailTitle mailSubject:mailSubject mailBody:mailBody isHTML:isHTML]) {
         
         self.mailRecipients = mailRecipients;
         self.mailCcRecipients = mailCcRecipients;
